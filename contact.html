@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Grace Hannon</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-name">Grace Hannon</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <main class="contact-main">
+    <svg class="flow-bg flow-bg--subtle" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-100,350 C200,150 500,550 800,300 S1100,100 1400,250" fill="none" stroke="#1a1a1a" stroke-width="0.5" opacity="0.18"/>
+      <path d="M0,600 C300,450 600,700 900,500 S1200,350 1400,480" fill="none" stroke="#1a1a1a" stroke-width="0.4" opacity="0.12"/>
+    </svg>
+
+    <div class="page-header">
+      <p class="page-label">Contact</p>
+      <h1 class="page-title">Let's<br><em>connect</em></h1>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Email</span>
+            <a href="mailto:graceannehannon@icloud.com" class="contact-detail-val">graceannehannon@icloud.com</a>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">LinkedIn</span>
+            <a href="https://linkedin.com/in/graceahannon" target="_blank" class="contact-detail-val">linkedin.com/in/graceahannon</a>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-label">Location</span>
+            <span class="contact-detail-val">Charleston, SC</span>
+          </div>
+        </div>
+
+        <a href="Grace_Hannon_Resume.pdf" download class="btn-outline" style="margin-top: 2.5rem; display: inline-block;">Download Resume</a>
+      </div>
+
+      <div class="contact-form-col">
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID after signing up at formspree.io -->
+        <form action="https://formspree.io/f/mlgagnbr" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me more..."></textarea>
+          </div>
+          <button type="submit" class="btn-outline btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Grace Hannon</p>
+    <div class="footer-links">
+      <a href="mailto:graceannehannon@icloud.com">Email</a>
+      <a href="https://linkedin.com/in/graceahannon" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
